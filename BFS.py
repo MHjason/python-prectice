@@ -47,7 +47,7 @@ class TreeNode:
 
 #%%
 class Solution:
-    def isSameTree(self, p: Optional[TreeNode], q: Optional[TreeNode]) -> bool:
+    def isSameTree(self, p, q):
         from collections import deque
         if not p and not q:
             return True
